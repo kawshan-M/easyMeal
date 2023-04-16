@@ -8,34 +8,60 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="327dp"
-        android:layout_height="52dp"
-        android:layout_marginEnd="32dp"
-        android:text="Button"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:text="Add Meals to DB"
+        app:backgroundTint="#00CA48"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631" />
+        app:layout_constraintVertical_bias="0.67" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="327dp"
-        android:layout_height="52dp"
-        android:layout_marginEnd="32dp"
-        android:text="Button"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:text="Search for Meals By Ingredient"
+        app:backgroundTint="#FF8A38"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712" />
+        app:layout_constraintVertical_bias="0.751" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="327dp"
-        android:layout_height="52dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="152dp"
-        android:text="Button"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="120dp"
+        android:text="Search for Meals"
+        app:backgroundTint="#00CA48"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="277dp"
+        android:layout_height="329dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/easy_meal__2_" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="336dp"
+        android:layout_height="377dp"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/easy_meal__3_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
