@@ -8,7 +8,7 @@
     tools:context=".SearchMealbyIngd">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/retbutton"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:text="Retrieve Meals"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.745" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/savebutton"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:text="Save meals to Database"
@@ -32,5 +32,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.832" />
+
+    <EditText
+        android:id="@+id/rettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

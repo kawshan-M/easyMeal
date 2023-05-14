@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ingredientbutton"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:text="Search for Meals By Ingredient"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/searchmealbutton"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_marginBottom="120dp"
