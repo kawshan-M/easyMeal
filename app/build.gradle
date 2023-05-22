@@ -5,12 +5,13 @@ plugins {
 }
 
 android {
+    namespace 'com.example.cw_2'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.easymeal"
-        minSdk 22
-        targetSdk 32
+        applicationId "com.example.cw_2"
+        minSdk 24
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -47,6 +48,4 @@ dependencies {
     kapt("androidx.room:room-compiler:2.5.1")
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:2.5.1")
-
-
 }

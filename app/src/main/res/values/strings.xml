@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">easyMeal</string>
+    <string name="app_name">Food App</string>
+    <string name="add_meal">Search for Meals</string>
+    <string name="meal">Add meals to DB</string>
+    <string name="ingredient">Search for Meals By Ingredient</string>
+    <string name="logo">LOGO</string>
+    <string name="enter_meal">Enter Meal</string>
+    <string name="retrieve_meal">Retrieve meal</string>
+    <string name="save_meal">save meal</string>
+    <string name="by_name">By Name</string>
 </resources>

@@ -1,0 +1,94 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="@drawable/easy_meal">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/search_meal"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:autofillHints="rice"
+            android:background="#DBE3E6"
+            android:ems="10"
+            android:hint="@string/enter_meal"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="50dp"
+            android:paddingTop="20dp">
+
+
+            <Button
+                android:id="@+id/btn_retrieve"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="#00CA48"
+                android:text="@string/retrieve_meal" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/easy_meal__2_"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -4,44 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallpaper">
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/addMeal"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:text="Add Meals to DB"
+        android:textStyle="bold"
         app:backgroundTint="#00CA48"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.665" />
+
 
     <Button
-        android:id="@+id/ingredientbutton"
+        android:id="@+id/Ingredient"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:text="Search for Meals By Ingredient"
+        android:textStyle="bold"
         app:backgroundTint="#FF8A38"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <Button
-        android:id="@+id/searchmealbutton"
+        android:id="@+id/byname"
         android:layout_width="360dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="120dp"
+        android:text="by_name"
+        android:textStyle="bold"
+        app:backgroundTint="#FF8A38"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <Button
+        android:id="@+id/searchMeal"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="140dp"
         android:text="Search for Meals"
+        android:textStyle="bold"
         app:backgroundTint="#00CA48"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -63,5 +83,6 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/easy_meal__3_" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
